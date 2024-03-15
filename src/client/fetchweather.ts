@@ -1,7 +1,8 @@
 import { fetchWeatherApi } from "openmeteo";
-import { Location, WeatherData } from "../weather";
+import { WeatherData } from "../weather";
 import Axios from "axios";
 import { range } from "../helpers";
+import { Location } from "../types/location";
 
 const params = {
   current: "temperature_2m,weather_code,wind_speed_10m,wind_direction_10m",

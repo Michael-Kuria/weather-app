@@ -1,4 +1,4 @@
-import { Location } from "./weather";
+import { Location } from "./types/location";
 
 export const locations: Location[] = [
   {

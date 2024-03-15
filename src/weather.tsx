@@ -1,9 +1,6 @@
 import { getWeatherData } from "./client/fetchweather";
 import React, {FunctionComponent} from "react";
-export interface Location {
-  latitude: number;
-  longitude: number;
-}
+
 
 export interface WeatherData {
   current: Object;
